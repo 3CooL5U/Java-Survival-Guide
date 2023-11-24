@@ -676,8 +676,7 @@ public void encryptString()
       newChar = (char)((int)(line.charAt(num)) - 26 + SHIFT);
       line = line.substring(0, num) + newChar + line.substring(num + 1);
     }
-    else if ((newChar <= 90 && newChar >= 65)
-      || (newChar <=122 && newChar >= 97))
+    else if ((newChar <= 90 && newChar >= 65) || (newChar <=122 && newChar >= 97))
     {
       line = line.substring(0, num) + newChar + line.substring(num + 1);
     }
@@ -819,24 +818,19 @@ class Main
     numbers.put("Second", 2);
     numbers.put("Third", 3);
 
-
     System.out.println("HashMap: " + numbers);
-
 
     int value = numbers.get("Second");
     value = value * value;
     numbers.put("Second", value);
 
-
     System.out.println("HashMap with updated value: " + numbers);
-
 
     Iterator hmIterator = numbers.entrySet().iterator();
     while (hmIterator.hasNext()) 
     {
         Map.Entry mapElement = (Map.Entry)hmIterator.next();
         int marks = ((int)mapElement.getValue() + 10);
-
 
         System.out.println(mapElement.getKey() + " : " + marks);
     }
