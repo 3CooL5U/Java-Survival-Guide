@@ -861,16 +861,3 @@ value=value*value;
 #### Line length 
 
 Most text editors/IDEs have a vertical line to the right of the screen. This line is a good marker for roughly how long your lines should be. If your lines go past it, you might want to consider splitting it up or continuing it on the next line.
-
-
-## Credits 
-
-Written by: 
-
-If you need help or have feedback on this guide (or if there is anything else you would find helpful for me to write about), please dm me (any of these works):
-
-
-
-* Discord, 3CooL5U (WhenURealizeUMessedUp)#7688
-* Facebook, [https://www.facebook.com/michael.ding.142687/](https://www.facebook.com/michael.ding.142687/) 
-* Insta, [https://www.instagram.com/3cool_5u/](https://www.instagram.com/3cool_5u/) 
