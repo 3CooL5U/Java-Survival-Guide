@@ -389,13 +389,13 @@ Else
 
 
 ```Java
-Set grade counter to 1
-While grade counter <= 10
-    Input the next grade
-    Add the grade into the total
+Set gradecounter to 1
+While gradecounter <= 10
+    Input next grade
+    Add grade into total
 
-Set the class average to the total divided by 10
-Print the class average.
+Set classaverage to total / 10
+Print classaverage.
 ```
 
 
@@ -411,13 +411,13 @@ initialize passes to 0
 initialize failures to 0
 initialize student to 1
 
-while student counter <= 10
+while studentcounter <= 10
     input the next exam result
     if the student passed
         add 1 to passes
     else
         add 1 to failures
-    add 1 to student counter
+    add 1 to studentcounter
 
 print the number of passes
 print the number of failures
